@@ -9,9 +9,16 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.gg/pkv9QbHJe",
   },
-  docsRepositoryBase: "https://discord.gg/pkv9QbHJe",
+  docsRepositoryBase: "https://github.com/aimdexter/mosa3ada-docs/tree/main",
   footer: {
-    text: "Mosa3ada - Call For Contribution",
+    text: (
+      <div className="flex w-full flex-col items-center sm:items-start">
+        <p className="mt-6 text-xs">© {new Date().getFullYear()} BizTech.ma.</p>
+      </div>
+    ),
+  },
+  toc: {
+    backToTop: true,
   },
 };
 
