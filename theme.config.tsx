@@ -10,6 +10,13 @@ const config: DocsThemeConfig = {
     link: "https://discord.gg/pkv9QbHJe",
   },
   docsRepositoryBase: "https://github.com/aimdexter/mosa3ada-docs/tree/main",
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="Mosa3ada" />
+      <meta property="og:description" content="Mosa3ada Docs" />
+    </>
+  ),
   footer: {
     text: (
       <div className="flex w-full flex-col items-center sm:items-start">
