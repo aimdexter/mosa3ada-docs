@@ -1,29 +1,88 @@
 # Project Structure
 
-```
-src/
-├── api/
-│   ├── help/
-│   │   └── [id]/
-│   │   │   ├── route.js
-│   │   │   ├── service.js
-│   │   ├── 1-2-route.js
-│   │   ├── 1-3-service.js
-│   ├── helps/
-│   │   ├── route.js
-│   ├── helpscount/
-│   │   ├── route.js
-│   ├── nexthelps/
-│   │   ├── route.js
-│   ├── route.js
-├── contact/
-│   ├── contactStyle.css
-│   ├── page.js
-├── helps/
-├── helpsFilter.jsx
-├── layout.js
-├── loading.jsx
-├── page.js
-├── page.module.css
-
+```bash
+📁 src
+├─── 🔒 .env
+├─── 🔒 .env.example
+├─── 🧹 .eslintrc.json
+├─── 🚫 .gitignore
+├─── 🎨 .prettierrc
+├─── 🔵 config.js
+├─── 📄 contribution.md
+├─── 📋 jsconfig.json
+├─── 🔵 next.config.js
+├─── 📋 package-lock.json
+├─── 📋 package.json
+└─── 📄 README.md
+│
+📁 .vscode
+│              └─── 📋 settings.json
+│
+📁 helpsData
+│              ├─── 📓 cleaning.ipynb
+│              ├─── 📄 cleaning.md
+│              ├─── 📊 deduplicated_requests.csv
+│              ├─── 📁 helps
+│              ├─── 📁 helpsV2
+│              │                    └─── 📋 helpsV2cleaned.json
+│              └─── 📁 helpsV3
+│              └─── 📋 helpsV3.json
+│
+📁 public
+│              ├─── 🖋️ confirmation.svg
+│              ├─── 🖋️ danger.svg
+│              ├─── 🖋️ food.svg
+│              ├─── 🖋️ help.svg
+│              ├─── 🖋️ home.svg
+│              ├─── 🖋️ ighata.svg
+│              ├─── 🖋️ list.svg
+│              ├─── 🖋️ mosa3ada.svg
+│              ├─── 🖋️ next.svg
+│              ├─── 🖋️ position.svg
+│              └─── 🖋️ vercel.svg
+│              └─── 📁 images
+│              └─── 📷  header-img.jpeg
+│
+📁 src
+├─── 📁 app
+│                            ├─── 🖼️ favicon.ico
+│                            ├─── 🖌️ globals.css
+│                            ├─── 🔵 layout.js
+│                            ├─── ⚛️ loading.jsx
+│                            ├─── ⚛️ page.js
+│                            └─── 🖌️ page.module.css
+│
+📁 api
+│              └─── 🔵 route.js
+│
+📁 contact
+│              ├─── 🖌️ contactStyle.css
+│              └─── 🔵 page.js
+│
+📁 helps
+│              ├─── ⚛️ help.jsx
+│              ├─── ⚛️ helpCardsPagination.jsx
+│              └─── ⚛️ helpLoading.jsx
+│
+📁 components
+│              └─── 🔵 index.js
+│
+📁 constants
+│              └─── 🔵 helpRequestSteps.js
+│
+📁 hooks
+│              ├─── 🔵 useConfimration.js
+│              └─── 🔵 useDisConfirmation.js
+│
+📁 utils
+│              ├─── 🔵 analytics.js
+│              └─── 🔵 index.js
+│
+📁 firebase
+              └─── 📁 firestore
+              ├─── 🔵 fetchFirestoreBatch.js
+              ├─── 🔵 getAllDocuments.js
+              ├─── 🔵 getAllDocumentsCount.js
+              ├─── 🔵 getDocument.js
+              └─── 🔵 updateFieldInDocument.js
 ```
