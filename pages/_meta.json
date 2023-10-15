@@ -1,6 +1,8 @@
 {
   "index": "Introduction",
   "structure": "Project Structure",
+  "src": "src",
+  "pagination": "How pagination works",
   "iterations": "Iterations",
   "contribute": "Ready to Contribute?",
   "about": {
