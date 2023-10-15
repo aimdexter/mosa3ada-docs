@@ -1,0 +1,7 @@
+{
+  "fetchFirestoreBatch": "fetchFirestoreBatch.js",
+  "getAllDocuments": "getAllDocuments.js",
+  "getAllDocumentsCount": "getAllDocumentsCount.js",
+  "getDocument": "getDocument.js",
+  "updateFieldInDocument": "updateFieldInDocument.js"
+}

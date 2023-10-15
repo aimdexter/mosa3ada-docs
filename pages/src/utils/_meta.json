@@ -1,0 +1,5 @@
+{
+  "firebase": "firebase",
+  "analytics": "analytics.js",
+  "indexjs": "index.js"
+}
