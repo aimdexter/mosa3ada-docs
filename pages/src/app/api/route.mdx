@@ -1,9 +1,7 @@
 ```js showLineNumbers filename="route.js"
 import { NextResponse } from "next/server";
-import { getHelps } from "./service";
 
 export async function GET() {
-  const helpData = await getHelps();
-  return NextResponse.json(helpData);
+  return NextResponse.json("Welcome to the most amazing API in the world!");
 }
 ```
