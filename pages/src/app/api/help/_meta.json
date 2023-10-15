@@ -1,0 +1,5 @@
+{
+  "route": "route.js",
+  "service": "service.js",
+  "[id]": "[id]"
+}
